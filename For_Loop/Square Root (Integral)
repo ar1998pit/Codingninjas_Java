@@ -1,0 +1,21 @@
+Given a number N, find its square root. You need to find and print only the integral part of square root of N.
+For eg. if number given is 18, answer is 4.
+
+
+import java.util.*;
+public class Main {
+	
+	public static void main(String[] args) {
+		// Write your code here
+        Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int sq=0;
+		for(int i=0;i*i<=n;i++){
+           
+			sq=i;
+
+		}
+
+		System.out.println(sq);
+	}
+}
